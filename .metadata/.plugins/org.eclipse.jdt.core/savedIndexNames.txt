@@ -1,0 +1,10 @@
+INDEX VERSION 1.134+G:\TerceiroSemestre\projetoIntegrado\.metadata\.plugins\org.eclipse.jdt.core
+1273298192.index
+16199511.index
+2855284787.index
+3557054108.index
+519055505.index
+2045040867.index
+3927963097.index
+877962640.index
+299525498.index
