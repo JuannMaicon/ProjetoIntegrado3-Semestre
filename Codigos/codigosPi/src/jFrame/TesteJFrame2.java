@@ -7,9 +7,9 @@ import java.awt.event.ActionListener;
 import javax.swing.*;
 
 public class TesteJFrame2 extends JFrame implements ActionListener {
-	JLabel nome;
-	JTextField txtNome;
-	JButton btnGravar, btnSair;
+	JLabel cpf, rg, nome, logradouro, endereco;
+	JTextField txtCpf, txtRg, txtNome, txtLogradouro, txtEndereco ;
+	JButton btnGravar, btnCancelar;
 
 	public TesteJFrame2() {
 		setTitle("Primeira Janela Swing");// Titulo da janela
@@ -23,7 +23,7 @@ public class TesteJFrame2 extends JFrame implements ActionListener {
 		int distEsq = getWidth() / 2;
 		int larg = 150;
 		btnGravar = criarBotao("Gravar", 'G', distEsq - larg, rodape, larg, alt);
-		btnSair = criarBotao("Sair", 'S', distEsq, rodape, larg, alt);
+		btnCancelar = criarBotao("Sair", 'S', distEsq, rodape, larg, alt);
 		centralizar();
 		setVisible(true);// Exibindo a janela
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -88,7 +88,7 @@ public class TesteJFrame2 extends JFrame implements ActionListener {
 
 	@Override
 	public void actionPerformed(ActionEvent e) {
-		if (e.getSource() == btnSair)
+		if (e.getSource() == btnCancelar)
 			System.exit(0);
 	}
 
