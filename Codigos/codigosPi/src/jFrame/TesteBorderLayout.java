@@ -15,8 +15,8 @@ public class TesteBorderLayout extends JFrame{
 		
 		JButton b1 = criarBotao("Botao Norte" , BorderLayout.NORTH,'N');
 		JButton b2 = criarBotao("Botao Sul" , BorderLayout.SOUTH,'S');
-		JButton b3 = criarBotao("Botao Leste", BorderLayout.EAST,'E');
-		JButton b4 = criarBotao("Botao Oeste", BorderLayout.WEST,'W');
+		JButton b3 = criarBotao("Botao Leste", BorderLayout.EAST,'L');
+		JButton b4 = criarBotao("Botao Oeste", BorderLayout.WEST,'O');
 		JButton b5 = criarBotao("Botao Centro", BorderLayout.CENTER,'C' );
 		setVisible(true);		
 	}
