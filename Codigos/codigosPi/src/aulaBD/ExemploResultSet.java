@@ -25,8 +25,9 @@ public class ExemploResultSet {
 				String telefone = rs.getString("alunosTelefone");
 				double nota = rs.getDouble("alunosNota");
 				Aluno novo = new Aluno(id, nome, telefone, nota);
-				//				System.out.println(novo);
-				System.out.println(novo);
+							//System.out.println(novo);
+				//System.out.println(novo);
+				novo.imprimirAluno();
 			} 
 			conexao.closeDB(cn, st, rs);
 		} catch (SQLException e) {
