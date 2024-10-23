@@ -25,7 +25,7 @@ public class ExConsultaNomeCompleto {
 		return dia.format(date) + " - " + dateFormat.format(date);
 	}
 
-	Aluno consultarNomeCompleto(String nome) throws Exception {
+	public Aluno consultarNomeCompleto(String nome) throws Exception {
 		Aluno novo = null;
 		String queryCmd = "select * from alunos where alunosNome like ?";
 		Connection con = null;
